@@ -1,6 +1,6 @@
 import "./style.css";
 
-function Developers({ name, age, country }) {
+const Developers = ({ name, age, country }) => {
   return (
     <div className="devCard">
       <h1>Dev: {name}</h1>
@@ -8,5 +8,5 @@ function Developers({ name, age, country }) {
       <p>País: {country}</p>
     </div>
   );
-}
+};
 export default Developers;
