@@ -1,0 +1,13 @@
+.devCard {
+  border-radius: 6px;
+  border: 4px double white;
+  width: 320px;
+  margin: 5px;
+  background-color: #191970;
+}
+
+.devCard:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+  transform: scale(1.05);
+}
